@@ -403,6 +403,8 @@ max-width:100%;
 }
 header#masthead hgroup .logo img{
 vertical-align:bottom;
+width: 300px;
+height: 200px;
 }
 header#masthead hgroup .support-text{
 line-height:1.2em;
@@ -629,6 +631,7 @@ margin:0 -35px;
 background:#343538;
 font-size:13px;
 position:relative;
+
 /* Font awesome icons */
 /* General menu link styling */
 /* For when the menu becomes a sticky menu */

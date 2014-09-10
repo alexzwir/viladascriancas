@@ -2,6 +2,7 @@
 
 /* Handle the nav menu icon */
 
+
 function vantage_filter_nav_menu_items($item_output, $item, $depth, $args){
 	$object_type = get_post_meta($item->ID, '_menu_item_object', true);
 
