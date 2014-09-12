@@ -2,7 +2,7 @@
 	/*
 	 * Formulário de envio de Email 
 	 */
-	include('config.php');
+	// include('config.php');
 
 	foreach($_POST as $key => $value){
 		$_POST[$key]=utf8_decode($value);
@@ -29,7 +29,7 @@
 
 	$headers  = 'MIME-Version: 1.0' . "\r\n";
 	$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
-	$headers .= 'From: no-reply@viladascriancas.com.br' . "\r\n";
+	$headers .= 'From: contato@viladascriancas.com.br' . "\r\n";
 
 	//enderecos que receberao uma copia 
 	// $headers .= 'Cc: emassicano@bko.com.br' . "\r\n";
