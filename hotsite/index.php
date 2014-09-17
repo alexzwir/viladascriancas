@@ -1,27 +1,7 @@
-<!--?php
-	// session_start();
-	// error_reporting(0);
-
-	// $servidor = "localhost";
-	// $database = "viladascriancas";
-	// $usuario = "root";
-	// $senha = "root";	
-	
-	// mysql_connect($servidor,$usuario,$senha);
-	// mysql_select_db($database);
 
 
-
-	// Create connection
-	// $con=mysqli_connect("localhost","root","root","viladascriancas");
-
-	// // Check connection
-	// if (mysqli_connect_errno()) {
-	//   echo "Failed to connect to MySQL: " . mysqli_connect_error();
-	// }
-
-
-?-->
+<!-- vila_adm
+carol2012 -->
 
 
 
@@ -29,7 +9,16 @@
 <html>
 <head>
 	<title>Vila das Crianças</title>
-	<link rel="stylesheet" type="text/css" href="style/style.css">
+
+	<link rel="stylesheet" type="text/css" href="/style/style.css" media="screen"/>
+	<link rel="stylesheet" type="text/css" href="/style/celular.css" media="screen and (max-width: 649px)" />
+	<link rel="stylesheet" type="text/css" href="/style/tablet.css" media="screen and (min-width: 650px) and (max-width: 1024px)" />
+	<link rel="stylesheet" type="text/css" href="/style/intermediario.css" media="screen and (min-width: 1025px) and (max-width: 1220px)" />
+
+
+
+
+
 	<link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 	<script src="valida.js"></script>
@@ -88,5 +77,18 @@
 			<p>Vila das Crianças @2014</p>
 		</div>
 	</footer>
+
+	<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-54872367-1', 'auto');
+		  ga('require', 'displayfeatures');
+		  ga('send', 'pageview');
+
+	</script>
+
 </body>
 </html>
